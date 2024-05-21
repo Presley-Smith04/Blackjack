@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-image: url(media/table-top.jpg);">
+
+    <div class="banner">
+        <h1>Blackjack</h1>
+    </div>
+
+    <!--Cards-->
+    <div id="main"></div>
+
+    <!--Reset-->
+    <button class="button" id="reset">Reset</button>
+
+    <!--Hit-->
+    <button class="button" id="hit">Hit</button>
+
+    <!--Stand-->
+    <button class="button" id="stand">Stand</button>
+
+    <!--Player Total-->
+    <div id="playerTotal"></div>
+
+    <!--Opponent Total-->
+    <div id="dealerTotal"></div>
+
+    <!--Opponent Stand-->
+    <div id="dealerStand"></div>
+
+    <!--Winner-->
+    <div id="result"></div>
+
+    <!--Documentation-->
+    <button class="button" id="doc" onclick="window.location.href='doc.html'">Documentation Page</button>
+
+    <!--Rules-->
+    <button class="button" id="rules" onclick="window.location.href='rules.html'">Rules</button>
+
+    <!--Strategy-->
+    <button class="button" id="strat" onclick="window.location.href='strat.html'">Strategy</button>
+
+    <!--Audio-->
+    <audio id="audioPlayer" src="media/jazz.mp3"></audio>
+
+    <!--JavaScript files-->
+    <script src="classes.js"></script>
+    <script src="main.js"></script>
+    <script src="music.js"></script>
+</body>
+
+</html>
